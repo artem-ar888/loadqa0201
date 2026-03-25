@@ -1,0 +1,12 @@
+apiVersion: 1
+
+datasources:
+  - name: InfluxDB-Telegraf # Имя, которое будет отображаться в списке источников данных
+    type: influxdb
+    access: proxy
+    orgId: 1 # ID организации (всегда 1 для дефолтной)
+    url: http://influxdb:8086 # Адрес контейнера InfluxDB внутри сети Docker
+    # version: 1 # Явно указываем версию API (для InfluxDB 1.x)
+    database: influx # Имя базы данных, которую мы создали через env-переменную
+    user: admin # Логин админа из переменной INFLUXDB_ADMIN_USER
+    password: admin # Пароль админа из переменной INFLUXDB_ADMIN_PASSWORD
