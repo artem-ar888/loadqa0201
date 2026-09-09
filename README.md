@@ -25,5 +25,5 @@
 <details>
   <summary>Подсказка.</summary>
 
-  Используйте примеры из  папки [./samples](./samples) для начальной настройки мониторинга.
+  Используйте примеры из  папки [./samples](https://github.com/netology-code/loadqa-homeworks/blob/main/2.Load%20environment/samples) для начальной настройки мониторинга.
 </details>
